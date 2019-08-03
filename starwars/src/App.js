@@ -1,12 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './App.css';
 import axios from "axios";
-<<<<<<< HEAD
 import HeroCard from "./components/Heros"
-=======
-
-
->>>>>>> 5651c85684073c4389e2a1f63153446932c9e6a0
 
 const App = () => {
 
@@ -17,11 +12,7 @@ const App = () => {
   // the state properties here.
 
 
-<<<<<<< HEAD
   const [data, setData] = useState([]);
-=======
-  const [] = useState([]);
->>>>>>> 5651c85684073c4389e2a1f63153446932c9e6a0
 
 
   // Fetch characters from the star wars api in an effect hook. Remember, anytime you have a 
@@ -29,29 +20,20 @@ const App = () => {
   // sync up with, if any.
 
   useEffect(() => {
-<<<<<<< HEAD
       const fetchData = () => {
-=======
-
->>>>>>> 5651c85684073c4389e2a1f63153446932c9e6a0
     axios
       .get(`https://swapi.co/api/people/`)
       .then(response => {
        
 
-<<<<<<< HEAD
         setData(response.data.results)
 
         console.log(response.data);
-=======
-        console.log(response.data.results);
->>>>>>> 5651c85684073c4389e2a1f63153446932c9e6a0
           })
 
       .catch(
         error => console.log(error)
       )
-<<<<<<< HEAD
       }
       fetchData();
   }, [] 
@@ -77,13 +59,6 @@ const App = () => {
   </div>
   
   )
-=======
-  }, [] )
-
-
-
-  return (<div></div>)
->>>>>>> 5651c85684073c4389e2a1f63153446932c9e6a0
   
   }
 
