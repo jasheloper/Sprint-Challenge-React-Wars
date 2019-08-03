@@ -9,12 +9,12 @@ const HeroDiv = styled.div `
     margin: auto;
     background-color: #212F3C
     color: white;
-    padding: 2em;
+    padding: 1em;
     border-radius: 4em;
     border-bottom: 2px solid;
     text-align: center;
     line-height:3em;
-    font-family: verdana;
+    font-family: Arial;
 `
 
 const NameH2 = styled.h2 `
